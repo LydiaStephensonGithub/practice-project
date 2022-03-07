@@ -117,5 +117,4 @@ public class Duck {
 		return age == other.age && Objects.equals(gender, other.gender) && Objects.equals(habitat, other.habitat)
 				&& id == other.id && Objects.equals(name, other.name);
 	}
-
 }
