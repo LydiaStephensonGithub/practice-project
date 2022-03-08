@@ -1,0 +1,9 @@
+package com.example.ducks.repo;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.ducks.entity.Duck;
+
+public interface DuckRepo extends JpaRepository<Duck, Long> {
+
+}

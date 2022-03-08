@@ -1,0 +1,6 @@
+#connects to MySQL database
+spring.datasource.url=jdbc:mysql://localhost:3306/ducks
+spring.datasource.username=root
+spring.datasource.password=root
+
+spring.jpa.hibernate.ddl-auto=create

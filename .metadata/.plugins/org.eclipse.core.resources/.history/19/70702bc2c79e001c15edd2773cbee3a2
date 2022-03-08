@@ -1,0 +1,6 @@
+package com.example.ducks.service;
+
+@Service
+public class DuckService {
+
+}

@@ -53,7 +53,6 @@ INDEX VERSION 1.131+C:\Users\lydia\Documents\classwork\Java\practice-project\.me
 1621364946.index
 2326691193.index
 2223942320.index
-2118057586.index
 4066743790.index
 2705853457.index
 737669467.index
