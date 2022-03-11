@@ -28,7 +28,7 @@ public class DuckController {
 	
 	//create 
 	@PostMapping("/create")
-	public ResponseEntity<Duck> createDuck(@RequestBody Duck duck) {
+	public ResponseEntity<Duck> create(@RequestBody Duck duck) {
 		return new ResponseEntity<Duck>(this.service.create(duck), HttpStatus.CREATED);
 	}
 	
