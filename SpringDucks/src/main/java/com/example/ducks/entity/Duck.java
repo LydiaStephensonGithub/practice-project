@@ -102,7 +102,7 @@ public class Duck {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(age, gender, habitat, id, name);
+		return Objects.hash(age, gender, habitat, name);
 	}
 
 	@Override
@@ -114,7 +114,6 @@ public class Duck {
 		if (getClass() != obj.getClass())
 			return false;
 		Duck other = (Duck) obj;
-		return age == other.age && Objects.equals(gender, other.gender) && Objects.equals(habitat, other.habitat)
-				&& id == other.id && Objects.equals(name, other.name);
+		return age == other.age && Objects.equals(gender, other.gender) && Objects.equals(habitat, other.habitat) && Objects.equals(name, other.name);
 	}
 }
